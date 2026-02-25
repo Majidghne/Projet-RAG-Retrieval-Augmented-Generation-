@@ -32,17 +32,17 @@ Découpage hiérarchique intelligent utilisant des séparateurs logiques (`\n\n`
 ## 🚀 Installation et Utilisation
 
 ### Prérequis
+
+Installez les dépendances :
+
 ```bash
 pip install chromadb openai pypdf2 python-docx sentence-transformers nltk langchain langchain-text-splitters
+```
 
-## Configuration
-Placez vos documents (PDF, DOCX, TXT) dans le dossier du projet.
+### 📂 Configuration
 
+Configurez votre clé API OpenRouter dans le code :
 
-Configurez votre clé API OpenRouter dans le code:
-
-
-Python
+```python
 OPEN_ROUTER_API_KEY = "VOTRE_CLE_API"
-Lancez le notebook pour indexer les documents et interroger le système.
-
+```
