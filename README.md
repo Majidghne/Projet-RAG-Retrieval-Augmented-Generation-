@@ -34,3 +34,15 @@ Découpage hiérarchique intelligent utilisant des séparateurs logiques (`\n\n`
 ### Prérequis
 ```bash
 pip install chromadb openai pypdf2 python-docx sentence-transformers nltk langchain langchain-text-splitters
+
+## Configuration
+Placez vos documents (PDF, DOCX, TXT) dans le dossier du projet.
+
+
+Configurez votre clé API OpenRouter dans le code:
+
+
+Python
+OPEN_ROUTER_API_KEY = "VOTRE_CLE_API"
+Lancez le notebook pour indexer les documents et interroger le système.
+
